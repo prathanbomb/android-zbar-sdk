@@ -21,10 +21,10 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile rootProject.ext.dependencies.zbar
-    compile rootProject.ext.dependencies.camera
-    compile rootProject.ext.dependencies.appcompat
-    compile rootProject.ext.dependencies.design
-    compile rootProject.ext.dependencies.permission
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation rootProject.ext.dependencies.zbar
+    implementation rootProject.ext.dependencies.camera
+    implementation rootProject.ext.dependencies.appcompat
+    implementation rootProject.ext.dependencies.design
+    implementation rootProject.ext.dependencies.permission
 }
